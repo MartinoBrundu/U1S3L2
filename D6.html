@@ -141,9 +141,10 @@
         const ulpush = document.querySelectorAll ('ul')
         
         const NewLi = document.createElement('li')
-        newLi.innerText = 'fourth'
-        }
-        ulpush[1].appendChild(newLi)
+        
+        for ( let i=0 ; i< ulpush.length ; i++ ) {
+          NewLi.innerText = 'fourth'
+        ulpush[1].appendChild(NewLi)}
         
       }
       addToTheSecond ()
